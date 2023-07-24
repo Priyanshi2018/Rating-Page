@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(27, 26, 26);
+    box-sizing: border-box;
+    display: flex;
+}
+.img{
+    border-radius: 50%;
+    width: 1.7rem;
+    height: 1.1rem;
+     padding: 0.7rem;
+    background-color: rgb(23, 26, 35);
+}
+
+.card{
+    border-radius: 2rem;
+    padding: 1em;
+    background-color: rgb(18, 16, 23);
+    width:330px; 
+     margin:15rem auto 15rem auto;
+} 
+
+.card h3,.card h2{
+    color: white;
+}
+.card p{
+    color: rgb(190, 189, 189);
+}
+
+.rate{
+    border-radius: 50%;
+    border-style: none;
+    width: 2.5rem;
+    height: 2.5rem;
+     padding: 0.4em;
+     margin: 0.7rem;
+     color: white;
+     background-color: rgb(23, 26, 35);
+}
+.rate:hover{
+    
+    background-color:rgb(236, 160, 18) ;
+}
+.active {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.4em;
+    margin: 0.7rem;
+    background-color: lightgrey;
+  }
+  .sub{
+    border-radius: 2rem ;
+    border: 0.1em solid black ;
+    padding: 0.7rem;
+    color: white;
+    margin: 1em;
+    width: 300px;
+    font-size: 1em;
+    justify-content: center;
+    background-color: rgb(236, 160, 18);
+}
+.sub:hover{
+    background-color: white;
+    color: rgb(236, 160, 18);
+}
+
+.img2{
+    height: 120px;
+    margin: 50px;
+}
+
+#result{
+    color: orange;
+    text-align:center;
+}
